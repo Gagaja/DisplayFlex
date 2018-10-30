@@ -3,25 +3,30 @@ html
 
 *, *:before, *:after
 { box-sizing:inherit; }
-
+body{
+    background: #c4c4c4;
+}
 h1 {
     color: red;
-    font-size: 35px;
+    font-size: 45px;
+    text-align: center;
 }
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-    
+    display: flex;
+    border: solid red 4px;
+    flex-flow: wrap;
+  
 
 }
 
 .container div {
-    font-size: 18px;
-    padding:15px;
-    width: 20%;
     height: 100px;
-    border: 3px solid red;
+    width: 20%;
+    border: solid red 4px;
+    padding: 5px;
+    background: #fff;
+    font-size:22px;
+    font-weight: 500;
 }
 
